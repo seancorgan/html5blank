@@ -329,6 +329,5 @@ add_filter('excerpt_more', 'html5_blank_view_article'); // Add 'View Article' bu
 add_filter('post_thumbnail_html', 'remove_thumbnail_dimensions', 10); // Remove width and height dynamic attributes to thumbnails
 add_filter('image_send_to_editor', 'remove_thumbnail_dimensions', 10); // Remove width and height dynamic attributes to post images
 
-// Remove Filters
-remove_filter('the_excerpt', 'wpautop'); // Remove <p> tags from Excerpt altogether
+
 
